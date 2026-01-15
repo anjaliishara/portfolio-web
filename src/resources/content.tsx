@@ -5,11 +5,11 @@ const person: Person = {
   firstName: "Anjali",
   lastName: "Ishara",
   name: `Anjali Ishara`,
-  role: "Design Engineer",
+  role: "Staff Assistant at Bank of Ceylon",
   avatar: "/images/avtar.jpeg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "Anjaliishara19@gmail.com",
+  location: "Asia/Colombo", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: [], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
