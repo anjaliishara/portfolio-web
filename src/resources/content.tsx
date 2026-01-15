@@ -165,7 +165,7 @@ const about: About = {
     title: "Academic Qualifications",
     institutions: [
       {
-        name: "MSc in Business Administration",
+        name: "MBA in Business Administration",
         description: <><div>London Metropolitan University | United Kingdom</div></>,
         year: "2025 - Present",
       },
