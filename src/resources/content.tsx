@@ -59,24 +59,24 @@ const home: Home = {
   image: "/images/gallery/gal2.jpeg",
   label: "Home",
   title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  description: `My Portfolio`,
+  headline: <></>,
   featured: {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
+        <strong className="ml-4">Anjali Ishara</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
-          Featured work
+          Staff Assistant
         </Text>
       </Row>
     ),
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "https://anjali-ishara.vercel.app/",
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+      I'm Anjali Ishara, a Staff Assistant at Bank of Ceylon engineer.
     </>
   ),
 };
@@ -85,7 +85,7 @@ const about: About = {
   path: "/about",
   label: "About Me",
   title: `About Me – Anjali Ishara`,
-  description: `Meet ${person.name}, ${person.role} from ${person.location}`,
+  description: `Hi I'm ${person.name}, ${person.role} from Sri Lanka`,
   tableOfContent: {
     display: true,
     subItems: false,
